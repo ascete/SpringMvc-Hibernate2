@@ -1,6 +1,10 @@
 package dao;
 
-public interface UserDao {
+import model.User;
+
+import java.util.List;
+
+public interface DaoUser {
     void createUsersTable();
 
     void dropUsersTable();
